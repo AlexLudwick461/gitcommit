@@ -6,7 +6,12 @@ int add(int a, int b);
 int main()
 {
     cout << "Hellow world!\n";
-    cout << "adds' << endl;
+    cout << "adds" << endl;
 
     return 0;
+}
+
+int add(int a, int b)
+{
+    return a+b;
 }
